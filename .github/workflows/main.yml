@@ -1,2 +1,11 @@
 name: A workflow for noobs Mamamiya
 on: push
+jobs:
+  build:
+    name: miya world action
+    runs-on: ubuntu-stable
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./action-a
+      with:
+        MY_NAME: "Monamiya"
