@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-sh -c "first echo from Github Action by ${INPUT_MY_NAME}"
+sh -c "echo Hello from Github Action with ${INPUT_MY_NAME}"
