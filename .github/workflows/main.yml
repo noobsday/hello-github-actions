@@ -3,7 +3,7 @@ on: push
 jobs:
   build:
     name: miya world action
-    runs-on: ubuntu-stable
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v1
       - uses: ./action-a
